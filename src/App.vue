@@ -1,12 +1,12 @@
 <script>
+
+
+
 </script>
 
 <template>
-  <div class="container py-4">
-    <h1>
-      Hello
-    </h1>
-  </div>
+  <header></header>
+  <router-view></router-view>
 </template>
 
 <style></style>
