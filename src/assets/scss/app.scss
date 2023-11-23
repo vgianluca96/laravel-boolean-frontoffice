@@ -12,6 +12,11 @@
     -webkit-box-shadow: 0px 0px 20px 0px rgba(202, 158, 42, 0.84);
     box-shadow: 0px 0px 20px 0px rgba(202, 158, 42, 0.84);
     border: rgba(202, 158, 42, 0.84) !important;
+    cursor: pointer;
+}
+
+.cocktail_card:hover {
+    scale: 1.1;
 }
 
 .btn_card {
