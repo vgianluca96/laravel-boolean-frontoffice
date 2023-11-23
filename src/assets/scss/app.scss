@@ -1,1 +1,9 @@
-@use 'bootstrap/scss/bootstrap'
+@use 'bootstrap/scss/bootstrap';
+
+.img_home {
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/gettyimages-915795854-1591214427.jpg?crop=1xw:0.8453434844192634xh;center,top');
+    background-size: cover;
+    background-position: 0 83%;
+    width: 100%;
+    min-height: 650px;
+}
