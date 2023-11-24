@@ -64,8 +64,8 @@ ul li a {
 
 ul:hover li a {
     transform: scale(1.5);
-    opacity: 0.2;
-    filter: blur(5px);
+    opacity: 0.8;
+    filter: blur(4px);
 }
 
 ul li a:hover {
