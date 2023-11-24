@@ -45,8 +45,7 @@ export default {
     color: #FFD700;
     text-align: center;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
+
     width: 100%;
 }
 
