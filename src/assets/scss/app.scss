@@ -9,16 +9,24 @@
 }
 
 .demo {
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(202, 158, 42, 0.84);
-    box-shadow: 0px 0px 20px 0px rgba(202, 158, 42, 0.84);
-    border: rgba(202, 158, 42, 0.84) !important;
     cursor: pointer;
 }
 
 .cocktail_card:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px darkorange;
+    border: darkorange !important;
     scale: 1.1;
+    box-shadow: 0px 0px 20px 0px darkorange;
+    transition: 0.5s;
 }
 
 .btn_card {
-    background-color: rgba(202, 158, 42, 0.84);
+    background-color: rgba(255, 136, 32, 0);
+    border: 1px solid darkorange;
+    color: white;
+}
+
+.btn_card:hover {
+    background-color: darkorange;
+    transition: 0.5s;
 }

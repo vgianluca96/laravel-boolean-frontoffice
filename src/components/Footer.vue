@@ -41,8 +41,8 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-    background-color: black;
-    color: #FFD700;
+    background-color: rgb(58, 48, 46);
+    color: darkorange;
     text-align: center;
     padding: 20px;
 
@@ -50,11 +50,11 @@ export default {
 }
 
 .footer a {
-    color: #FFD700;
+    color: darkorange;
     text-decoration: none;
 }
 
 svg {
-    fill: #FFD700
+    fill: darkorange;
 }
 </style>

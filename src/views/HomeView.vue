@@ -33,7 +33,7 @@ export default {
             <h2 class="mb-5 text-center text-white">OUR PROPOSAL</h2>
             <div class="row">
                 <div class="col" v-for="cocktail in  cocktails ">
-                    <div class="card mb-5 demo cocktail_card" style="width: 18rem;">
+                    <div class="card mb-5 demo cocktail_card text-white" style="background-color: rgb(110, 73, 67); width: 18rem;">
                         <img :src="cocktail.strDrinkThumb" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">{{ cocktail.strDrink }}</h5>

@@ -7,20 +7,20 @@ export default {
 </script>
 
 <template>
-    <div class="bg-dark text-light">
+    <div  style="background-color: #1e0904;" class="text-light">
 
-        <div class="p-5 mb-4 bg-dark text-light">
+        <div class="p-5 mb-4 text-light">
             <div class="container py-5 text-center">
-                <h1 class="display-5 fw-bold">Fancy a table?</h1>
-                <p class="fs-4">Reserve a spot</p>
-                <button class="btn btn-primary btn-lg" type="button">
+                <h1 style="color: darkorange;" class="display-5 fw-bold">Fancy a table?</h1>
+                <p class="fs-4 py-4">Reserve a spot</p>
+                <button class="btn btn_card btn-lg" type="button">
                     Tell us everything
                 </button>
             </div>
         </div>
     
-        <div class="container bg-dark text-light">
-            <form action="" class="my-5">
+        <div class="container text-light">
+            <form action="" class="py-5">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
                     <input
@@ -30,6 +30,7 @@ export default {
                     class="form-control"
                     placeholder="Your name here"
                     aria-describedby="nameHelper"
+                    style="background-color: rgb(110, 73, 67); border: 0;"
                     />
                 </div>
                 <div class="mb-3">
@@ -41,6 +42,7 @@ export default {
                     class="form-control"
                     placeholder="Your phone number"
                     aria-describedby="phoneHelper"
+                    style="background-color: rgb(110, 73, 67); border: 0;"
                     />
                 </div>
                 <div class="mb-3">
@@ -52,6 +54,7 @@ export default {
                     class="form-control"
                     placeholder="Your email here"
                     aria-describedby="emailHelper"
+                    style="background-color: rgb(110, 73, 67); border: 0;"
                     />
                 </div>
     
@@ -63,13 +66,25 @@ export default {
                     id="message"
                     rows="3"
                     placeholder="Your message here..."
+                    style="background-color: rgb(110, 73, 67); border: 0; color: white;"
                     ></textarea>
                 </div>
     
-                 <button type="submit" class="btn btn-primary">Send</button>
+                 <button type="submit" class="btn btn_card">Send</button>
             </form>
         </div>
     </div>
 </template>
 
-<style></style>
+<style>
+input::placeholder {
+  opacity: 0.5;
+  color: #1e0904 !important;
+}
+
+textarea::placeholder {
+  opacity: 0.5;
+  color: #1e0904 !important;
+}
+
+</style>

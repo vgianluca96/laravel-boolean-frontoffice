@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <ul id="navbar" class="nav justify-content-center   w-100 shadow">
+    <ul id="navbar" class="nav justify-content-center w-100 shadow">
 
 
         <li><router-link to="/">Home</router-link></li>
@@ -23,15 +23,15 @@ export default {
 
 <style lang="scss" scoped>
 svg {
-    fill: #FFD700
+    fill: darkorange;
 }
 
 .nav-link {
-    color: #FFD700;
+    color: darkorange;
 }
 
 .nav {
-    background-color: black;
+    background-color: rgb(58, 48, 46);
     padding-top: 25px;
     padding-bottom: 5px;
 }
@@ -57,23 +57,16 @@ ul li a {
     padding: 5px;
     font-size: 18px;
     font-family: sans-serif;
-    color: #FFD700;
+    color: white;
     text-transform: uppercase;
     transition: 0.5s;
 }
 
-ul:hover li a {
-    transform: scale(1.5);
-    opacity: 0.8;
-    filter: blur(4px);
-}
+
 
 ul li a:hover {
-    transform: scale(2);
-    opacity: 1;
-    filter: blur(0);
     text-decoration: none;
-    color: black;
+    color: darkorange;
 }
 
 ul li a:before {
@@ -83,7 +76,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #FFD700;
+    background: white;
     transition: 0.5s;
     transform-origin: right;
     transform: scaleX(0);

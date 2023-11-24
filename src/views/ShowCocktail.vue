@@ -30,8 +30,8 @@ export default {
     </div>
     <div style="background-color: #1e0904;">
         <div class="container p-5" v-if="cocktail">
-            <h1 class="mb-5 text-center text-white">{{ cocktail.strDrink }}</h1>
-            <div class="card mb-3 demo">
+            <h1 style="background-color: darkorange; color: #1e0904;" class="mb-5 text-center">{{ cocktail.strDrink }}</h1>
+            <div style="background-color: rgb(110, 73, 67);" class="card mb-3 demo text-white">
                 <div class="row g-0">
                     <div class="col-md-6">
                         <img :src="cocktail.strDrinkThumb" class="img-fluid rounded-start" alt="...">
@@ -39,10 +39,10 @@ export default {
                     <div class="col-md-6 d-flex align-items-center">
                         <div class="card-body">
                             <h5 class="card-title">This is our {{ cocktail.strDrink }}</h5>
-                            <p class="card-text">This cocktail is <span v-if="!cocktail.strAlcoholic">not </span>alcholic
+                            <p style="color: darkorange;" class="card-text"><span v-if="!cocktail.strAlcoholic">not </span>alcholic
                             </p>
-                            <p class="card-text"><strong>Category:</strong>{{ cocktail.strCategory }}</p>
-                            <p class="card-text"><strong>Served on:</strong>{{ cocktail.strGlass }}</p>
+                            <p class="card-text"><strong>Category: </strong>{{ cocktail.strCategory }}</p>
+                            <p class="card-text"><strong>Served on: </strong>{{ cocktail.strGlass }}</p>
                             <h4>How to prepare it</h4>
                             <p><strong>Ingredients:</strong></p>
                             <ul>
