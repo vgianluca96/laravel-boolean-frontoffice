@@ -4,7 +4,7 @@ export default {
     name: 'HomeView',
     data() {
         return {
-            fullUrl: 'http://127.0.0.1:8001/api/cocktails',
+            fullUrl: 'http://127.0.0.1:8000/api/cocktails',
             cocktails: []
         }
     },
