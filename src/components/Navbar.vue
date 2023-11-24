@@ -23,15 +23,15 @@ export default {
 
 <style lang="scss" scoped>
 svg {
-    fill: #ffecde
+    fill: #FFD700
 }
 
 .nav-link {
-    color: #ffecde;
+    color: #FFD700;
 }
 
 .nav {
-    background-color: #430030;
+    background-color: black;
     padding-top: 25px;
     padding-bottom: 5px;
 }
@@ -57,7 +57,7 @@ ul li a {
     padding: 5px;
     font-size: 18px;
     font-family: sans-serif;
-    color: #ffecde;
+    color: #FFD700;
     text-transform: uppercase;
     transition: 0.5s;
 }
@@ -73,7 +73,7 @@ ul li a:hover {
     opacity: 1;
     filter: blur(0);
     text-decoration: none;
-    color: #430030;
+    color: black;
 }
 
 ul li a:before {
@@ -83,7 +83,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ffecde;
+    background: #FFD700;
     transition: 0.5s;
     transform-origin: right;
     transform: scaleX(0);
