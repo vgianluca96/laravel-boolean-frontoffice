@@ -31,7 +31,7 @@ svg {
 }
 
 .nav {
-    background-color: rgb(58, 48, 46);
+    background-color: rgb(110, 73, 67);
     padding-top: 25px;
     padding-bottom: 5px;
 }
